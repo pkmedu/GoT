@@ -1,0 +1,163 @@
+
+Git setup (keep the quotes):
+
+git config --global user.name "Your Name"
+git config --global user.email "your-email@gwu.edu"
+
+Mac:
+     git config --global core.autocrlf input
+Windows:
+      git config --global core.autocrlf true
+
+
+Core Git Commands:
+git init              -> Start using git for version control in the folder you are in (aka "initiate git repository")
+git status        -> Check the status of the git repository (i.e. is it working? what files aren't tracked? etc.)
+git add           -> Put files, as they currently are, into a staging area.
+git commit -m "describe what your changes do here"   -> Take files from the staging area and store them in the repository.
+
+Git Commands for reviewing your changes
+git log
+git diff 
+
+Git commands for interacting with remotes
+git remote -v    -> List remotes
+git remote add  -> Add a remote
+git push     -> update the remote with local changes
+git pull       -> fetch changes from remote
+
+
+Dan's history of commands:
+
+  621  git init
+  622  ls 
+  623  ls =a
+  624  ls -a
+  625  ls -al
+  626  git status
+  627  nano mars.txt
+  628  ls
+  629  cat mars.txt
+  630  git status
+  631  git add mars.txt 
+  632  git status
+  633  git commit -m "Start notes on Mars"
+  634  git status
+  635  git log
+  636  nano mars.txt
+  637  git status
+  638  git status -s
+  639  git diff
+  640  git add mars.txt
+  641  git status
+  642  git commit -m "Added line about moons"
+  643  git log
+  644  nano mars.txt
+  645  git add mars.txt
+  646  git log
+  647  git commit -m "Added third line"
+  648  git diff --staged
+  649  git log | less
+  650  git log -2
+  651  git log --help
+  652  mkdir spaceships
+  653  ls -l
+  654  git status
+  655  git add spaceships
+  656  git status
+  657  git commit -m "Added spaceships directory"
+  658  git log
+  659  history
+  660  cd spaceships
+  661  touch apollo_11
+  662  ls -al
+  663  git add apollo_11
+  664  cd ..
+  665  pwd
+  666  ls -al
+  667  ls spaceships/
+  668  git add spaceships/
+  669  git commit -m "Started folder of spaceships"
+  670  clear
+  671  git log
+  672  git diff HEAD mars.txt
+  673  git diff HEAD~2 mars.txt
+  674  git diff HEAD~3 mars.txt
+  675  git show HEAD~3 mars.txt
+  676  git show de48 mars.txt
+  677  git checkout de48 mars.txt
+  678  cat mars.txt 
+  679  git status
+  680  git checkout HEAD mars.txt
+  681  cat
+  682  cat mars.txt
+  683  ls -al
+  684  git log
+  685  git checkout HEAD
+  686  cat mars.txt
+  687  git checkout de48275
+  688  ls -al
+  689  git log
+  690  git checkout HEAD
+  691  ls
+  692  ls -al
+  693  git checkout 7dbd5d0
+  694  git reflog
+  695  ls
+  696  cd spaceships/
+  697  ls
+  698  touch gemini
+  699  touch columbia
+  700  ls -al
+  701  git add *
+  702  git status 
+  703  git commit -m "Added two new spaceships"
+  704  cd ..
+  705  ls -al
+  706  nano .gitignore
+  707  ls -al
+  708  cat .gitignore 
+  709  touch data.dat
+  710  git status
+  711  git add .gitignore
+  712  git commit -m 'Created .gitignore'
+  713  git status
+  714  git checkout master
+  715  git status 
+  716  ls -al
+  717  nano .gitignore
+  718  git add .gitignore
+  719  git commit -m 'Created .gitignore'
+  720  git status
+  721  git remote add origin https://github.com/kerchner/planets.git
+  722  git branch -M main
+  723  git push -u origin main
+  724  history
+  725  git remote -v
+  726  git branch
+  727  git pull origin master
+  728  git pull origin main
+  729  ls -l
+  730  nano venus.txt
+  731  git add venus.txt
+  732  git commit -m 'Created Venus tracking file'
+  733  git push origin main
+  734  history
+  735  cd ..
+  736  mkdir planets2
+  737  cd planets2
+  738  cd ..
+  739  cd planets
+  740  git branch
+  741  git checkout -b branch01
+  742  git branch
+  743  pwd
+  744  nano venus.txt 
+  745  git add venus.txt
+  746  git commit -m 'More descriptive'
+  747  git push origin branch01
+  748  git checkout main
+  749  git branch
+  750  git pull origin main
+  751  history
+
