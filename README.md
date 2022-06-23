@@ -1,2 +1,1 @@
-# GoT
-Git of Things (GoT)
+# Git_Code_Refs
