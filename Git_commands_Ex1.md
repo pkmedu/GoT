@@ -1,3 +1,10 @@
+
+muhuri@CCASTA-HWJP0G2 MINGW64 ~/sascourse (master)
+$ git config --global user.name "pkmedu"
+$ git config --global user.email "pradip.k.muhuri@gmail.com
+$ git config --list
+
+
 **Example – Git cloning**
 
 Pradip Muhuri\@Lenovo-PC MINGW64 \~ (master)
