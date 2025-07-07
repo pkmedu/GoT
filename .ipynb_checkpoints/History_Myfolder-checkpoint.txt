@@ -1,0 +1,74 @@
+   
+   57  cd /c/sascourse/
+   58  git status
+   59  git add -A
+   60  git commit -m "Updated 2/2"
+   61  git push
+   
+   75  cd /c/SASCourse/SAS_Windowing_JupyterLab/
+   76  dir
+   77  git rm -r Licensed_SAS_JupyterLab.docx
+   78  git rm -f Licensed_SAS_JupyterLab.docx
+   80  git rm --cached Licensed_SAS_JupyterLab.docx
+   
+  
+  115  cd /c/sascourse/week4/
+  116  git rm -r Example_call_sortn.sas
+  117  git mv Example_Largest.sas Ex36_Largest.sas
+  118  git mv Example_largest.sas Ex36_Largest.sas
+ 
+  188  dir
+  189  git rm BY_VAR.txt
+  190  git rm Ex_List_File_Names.sas  
+ 
+  440  cd /c/sascourse
+  441  git pull
+  442  cd /c/sascourse
+  443  git status
+  444  git status
+  445  git add -A
+  446  git commit -m "Updated again 7/6/19"
+ 
+  503  pwd
+  504  cd 
+  505  pwd
+  506  cd ../..
+  507  cd SASCourse/
+  508  ll
+  
+  509  cd ../
+  510  mkdir SASCourse_Fall2019
+  511  cd SASCourse_Fall2019/
+  512  git init
+  513  ll
+  514  cp -r ../SASCourse/Week1 ./
+  515  ll
+  516  git add .
+  517  git commit -m "first week added"
+  519  git remote add origin https://github.com/SASGateway/SASCourse_Fall2019.git
+  520  git push -u origin master
+  521  
+  522  pwd
+  523  history > ../Users/pmuhuri/Documents/history.txt
+  
+  524  cp -r ../SASCourse/Week2 ./
+  525  ll
+  526  git status
+  527  git add -A
+  528  git commit -m "UPD 8/3/2019"
+  529  git push
+  530  git pull
+  531  ll
+  532  history > ../Users/pmuhuri/Documents/history.txt
+       # pathspec (comment added)
+  392  cd GitHub_Tips
+  393  dir
+  396  git rm -f Git_commands_APR10_2020.docx
+  397  git ls-files --others -i --exclude-standard
+  398  git add .
+  402  git add -f Git_commands_APR10_2020.docx
+  405  dir
+  406  git add -A
+  407  gir commit -m "10/9/2020 7:42 AM"
+  408  git commit -m "10/9/2020 7:42 AM"
+  409  git push
