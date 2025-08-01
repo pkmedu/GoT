@@ -72,3 +72,13 @@
   407  gir commit -m "10/9/2020 7:42 AM"
   408  git commit -m "10/9/2020 7:42 AM"
   409  git push
+
+For C:\Explore
+git status
+git add -A
+git commit -m "Revised"
+git push origin main
+
+ git push --set-upstream origin main
+
+
